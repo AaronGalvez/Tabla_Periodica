@@ -1,27 +1,29 @@
-section{
+.section{
 
 }
-section1{
-    
+.section1{
+    background-color: #F7CAAC;
 }
-section2{
-    
+.section2{
+    background-color: #FFE599;
 }
-section3{
-    
+.Contenedor2{
+    background-color:  #FFFF00;
 }
-section4{
-    
+
+
+.section4{
+    background-color: #8EAADB;
 }
-section5{
-    
+.section5{
+    background-color: #68FB61;
 }
-section6{
-    
+.section6{
+    background-color: #DDABFF;
 }
-section7{
-    
+.section7{
+    background-color: #FF66FF;
 }
-section8{
-    
+.section8{
+    background-color: #00CCFF;
 }
