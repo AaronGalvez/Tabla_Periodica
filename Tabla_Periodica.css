@@ -1,33 +1,44 @@
-.elementos{
-    width: 100px;
-    height: 100px;
-    border: solid 1px black;
+.periodica-grid {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: center;
+    grid-template-columns: repeat(18, 48px); /* 18 columnas como la tabla periódica */
+    grid-auto-rows: 48px;
+    gap: 1px;
+    width: max-content;
+    
+}
+
+.elementos {
+    display: flex;
     align-items: center;
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none !important;
-    color: black;
-}
-.elementos2{
-    width: 100px;
-    height: 100px;
-    border: solid 1px black;
-    display: grid;
-    grid-template-rows: repeat(3,1fr);
     justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none !important;
-    color: black;
+    border: 1px solid black;
+    background: #fff8d6;
+    font-weight: 600;
+    text-decoration: none;
+    box-sizing: border-box;
 }
-.Al{
-    background-color: rgb(98, 98, 240);
-    text-decoration: none !;
+
+.seccion1 {
+    background-color:#F7CAAC;
 }
-.B{
-    background-color: rgb(90, 216, 90);
+.seccion2 {
+    background-color:#FFE599;
+}
+.seccion3 {
+    background-color:#FFFF00;
+}
+.seccion4 {
+    background-color:#8EAADB;
+}
+.seccion5 {
+    background-color:#68FB61;
+}
+.seccion6 {
+    background-color:#DDABFF;
+}
+.seccion7 {
+    background-color:#FF66FF;
+}
+.seccion8 {
+    background-color:#00CCFF;
 }
